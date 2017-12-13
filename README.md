@@ -1,8 +1,6 @@
 # BMSlideMenu - Slide Menu for iOS(Swift 3)
 BMSlideMenu is easy, smooth and efficient slide menu for iOS. BMSlideMenu is a customization of SWRealViewMenuSlider. 
 
-
-
 ### Integrating
 
 Follow the steps to integrate BMSlideMenu.
@@ -18,17 +16,17 @@ Step 2 :- Storyboard Updations
 * Create a view controller a give the class name - SWRevealViewController(Identity Inspector)
 * set it as initial view controller(Attributes Inspector)
 
-* Create 3 other view controller(MainViewController, LeftSlideMenuViewController, RightSlideMenuViewController)
-* Embed MainViewController in Navigation Controller(Editor -> Embed In -> Navigation Controller)
+* Create 3 other view controller(ViewController, LeftSlideMenuViewController, RightSlideMenuViewController)
+* Embed ViewController in Navigation Controller(Editor -> Embed In -> Navigation Controller)
 * Add left and right Bar Button Item to the MainViewController
-* Create segue from the Reveal View Controller to all the 3 view controllers and select
+* Create segue from the SWRevealViewController to all the 3 view controllers and select
 
-* Click on segue and name Segue Identifier(Attributes Inspector) as "sw_front" for MainViewController
+* Click on segue and name Segue Identifier(Attributes Inspector) as "sw_front" for ViewController
 * Click on segue and name Segue Identifier(Attributes Inspector) as "sw_rear" for LeftSlideMenuViewController
 * Click on segue and name Segue Identifier(Attributes Inspector) as "sw_right" for RighttSlideMenuViewController
 
 
-Step 3 :- Use this code in the MainViewController
+Step 3 :- Use this code in the ViewController
 
 ```
 class ViewController: UIViewController {
@@ -59,7 +57,7 @@ class ViewController: UIViewController {
 
 Step 4 :- Customization
 
-* Customize your view controller and as per the width mention in the MainViewController the data will be displayed
+* Customize your view controller and as per the width mention in the ViewController the data will be displayed
 
 ## Reference
 
