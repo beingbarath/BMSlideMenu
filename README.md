@@ -1,6 +1,8 @@
 # BMSlideMenu - Slide Menu for iOS(Swift 3)
 BMSlideMenu is easy, smooth and efficient slide menu for iOS. BMSlideMenu is a customization of SWRealViewMenuSlider. 
 
+![Screenshot](BM%20Slider.gif)
+
 ### Integrating
 
 Follow the steps to integrate BMSlideMenu.
@@ -24,6 +26,8 @@ Step 2 :- Storyboard Updations
 * Click on segue and name Segue Identifier(Attributes Inspector) as "sw_front" for ViewController
 * Click on segue and name Segue Identifier(Attributes Inspector) as "sw_rear" for LeftSlideMenuViewController
 * Click on segue and name Segue Identifier(Attributes Inspector) as "sw_right" for RighttSlideMenuViewController
+
+![Screenshot](Screen_1.png)
 
 
 Step 3 :- Use this code in the ViewController
