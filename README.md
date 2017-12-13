@@ -27,7 +27,7 @@ Step 2 :- Storyboard Updations
 * Click on segue and name Segue Identifier(Attributes Inspector) as "sw_rear" for LeftSlideMenuViewController
 * Click on segue and name Segue Identifier(Attributes Inspector) as "sw_right" for RighttSlideMenuViewController
 
-![Screenshot](Screen_1.png)
+![Screenshot](Screen_1.png) ![Screenshot](Screen_2.png)
 
 
 Step 3 :- Use this code in the ViewController
