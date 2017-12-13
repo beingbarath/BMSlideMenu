@@ -1,5 +1,5 @@
 # BMSlideMenu - Slide Menu for iOS(Swift 3)
-BMSlideMenu is easy, smooth and efficient slide menu for iOS. BMSlideMenu is a customization of SWRealViewMenuSlider. 
+BMSlideMenu is easy, smooth and efficient slide menu for iOS.
 
 ![Screenshot](BM%20Slider.gif)
 
