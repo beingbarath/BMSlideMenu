@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Optima.ttc">
+            <string>Optima-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FeZ-VY-emz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3AG-NS-yER">
+                                        <rect key="frame" x="0.0" y="243" width="375" height="180"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BM Slide Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s51-PQ-FDf">
+                                                <rect key="frame" x="0.0" y="29" width="375" height="121"/>
+                                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="39"/>
+                                                <color key="textColor" red="0.92421874999999998" green="0.93041294642857142" blue="0.93359375" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.082526408450704219" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="s51-PQ-FDf" secondAttribute="trailing" id="0gk-mj-BgP"/>
+                                            <constraint firstItem="s51-PQ-FDf" firstAttribute="top" secondItem="3AG-NS-yER" secondAttribute="top" constant="29" id="2bg-9L-KRi"/>
+                                            <constraint firstItem="s51-PQ-FDf" firstAttribute="centerY" secondItem="3AG-NS-yER" secondAttribute="centerY" id="VEo-KU-zQN"/>
+                                            <constraint firstAttribute="height" constant="180" id="aDo-7l-jZ0"/>
+                                            <constraint firstItem="s51-PQ-FDf" firstAttribute="leading" secondItem="3AG-NS-yER" secondAttribute="leading" id="q5V-ia-5Bx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.26607142857142857" green="0.26007254464285712" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="3AG-NS-yER" secondAttribute="bottom" constant="244" id="008-qA-k2v"/>
+                                    <constraint firstItem="3AG-NS-yER" firstAttribute="centerX" secondItem="FeZ-VY-emz" secondAttribute="centerX" id="AUf-5P-2s8"/>
+                                    <constraint firstItem="3AG-NS-yER" firstAttribute="top" secondItem="FeZ-VY-emz" secondAttribute="top" constant="243" id="L2j-wr-5eO"/>
+                                    <constraint firstAttribute="trailing" secondItem="3AG-NS-yER" secondAttribute="trailing" id="PUp-uW-Vy6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FeZ-VY-emz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="VaX-I2-yei"/>
+                            <constraint firstAttribute="trailing" secondItem="FeZ-VY-emz" secondAttribute="trailing" id="a7D-nA-vcP"/>
+                            <constraint firstItem="FeZ-VY-emz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="rAw-BL-pVG"/>
+                            <constraint firstItem="FeZ-VY-emz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rsK-Uc-p1s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
