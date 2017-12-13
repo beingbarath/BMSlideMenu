@@ -61,7 +61,7 @@ Step 4 :- Customization
 
 * Customize your view controller and as per the width mention in the MainViewController the data will be displayed
 
-## Built With
+## Reference
 
 * [John-Lluch](https://github.com/John-Lluch/SWRevealViewController) - The framework used
 
